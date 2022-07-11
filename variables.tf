@@ -17,7 +17,7 @@ variable "az_count" {
 
 variable "app_image" {
   description = "Docker image to run in the ECS cluster"
-  default     = "nginx:latest"
+  default     = "tomsik68/xampp:latest"
 }
 
 variable "app_port" {
